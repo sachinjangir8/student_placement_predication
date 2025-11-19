@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     # here 3 values will be unpacked from the exc_info() method 
@@ -20,9 +20,9 @@ class CustomException(Exception):
     
 
     
-# if __name__=="__main__":
-#     try:
-#         a=1/0
-#     except Exception as e:
-#         logging.info("Divided by zero error")
-#         raise CustomException(e,sys)
+if __name__=="__main__":
+    try:
+        a=1/0
+    except Exception as e:
+        logging.info("Divided by zero error")
+        raise CustomException(e,sys)

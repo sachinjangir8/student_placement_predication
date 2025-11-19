@@ -1,7 +1,12 @@
 numpy
 pandas
+seaborn
+matplotlib
 scikit-learn
+catboost
+xgboost
+lightgbm
 joblib
 flask
 
--e.
+# -e.

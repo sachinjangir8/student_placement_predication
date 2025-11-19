@@ -40,5 +40,12 @@ utils.py--(to use it in comman way,to read a data from db then can create a mong
 ---------------------------------
 exception.py--start with exception handeling code
 logger.py--to show or log to console all the info in some files
+--------------------------------------------------------------------------------------------------------------------------
+        THIS WAS THE BASIC STRUCTURE TO MAKE THE PROJECT NOW YOU HAVE TO CHOOSE THE WHICH TYPE OF DATA YOU WANT TO USE
+notebook (folder)--
+        data(folder)--
+                EDA.ipynb--for data insights
+                model_training.ipynb--for training the model
+                
 
 

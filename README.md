@@ -46,6 +46,16 @@ notebook (folder)--
         data(folder)--
                 EDA.ipynb--for data insights
                 model_training.ipynb--for training the model
+
+----------------------------------------------------------------------------------------------------------------------------------------
+                       model training is completed so now start the implementation of it
+
+src-
+        data_injection.py-(work on it- read the data set from the specific source)
+                1. Loading raw data into the pipeline
+                2. Validating the input data
+                3. Storing the raw data
+                4. Splitting data     into-  ( Train set , Test set )
                 
 
 

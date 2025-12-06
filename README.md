@@ -56,6 +56,12 @@ src-
                 2. Validating the input data
                 3. Storing the raw data
                 4. Splitting data     into-  ( Train set , Test set )
+        
+        data_transformation.py(work on it- take the data from data_injection.py and work on it)
+                1. feature engnering ,data cleaning 
+                2. changing data cat to numeric
+        
+        utils( work-  to save the preporcesser obj)
                 
 
 
